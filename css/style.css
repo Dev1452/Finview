@@ -1,0 +1,460 @@
+              /* This css is used for all parts of web-site */
+              * {
+                  padding: 0px;
+                  margin: 0px;
+                  box-sizing: border-box;
+                  font-family: 'Roboto', sans-serif;
+                  list-style: none;
+              }
+
+              .t-center {
+                  text-align: center;
+              }
+
+              .js-content {
+                  justify-content: space-between;
+              }
+
+              .ai-item {
+                  align-items: center;
+              }
+
+              .d-flex {
+                  display: flex;
+              }
+
+              a {
+                  text-decoration: none;
+                  display: inline-block;
+              }
+
+              /* Main Css */
+
+              /* Header */
+              header {
+                  background: rgb(232, 238, 236);
+                  background: linear-gradient(90deg, rgba(232, 238, 236, 1) 0%, rgba(254, 247, 237, 1) 100%);
+                  border-bottom: 1px solid #e7edeb;
+              }
+
+              .container {
+                  width: 1140px;
+                  margin: auto;
+              }
+
+              .navbar ul li {
+                  padding: 20px;
+              }
+
+              .navbar ul li a {
+                  color: #5E6678;
+              }
+
+              .clr {
+                  color: #084C3F;
+              }
+
+              .home .search a i {
+                  padding: 5px;
+                  background-color: #ffffff;
+                  color: #084C3F;
+                  font-size: 20px;
+                  border-radius: 50%;
+                  border: 3px solid #0E5042;
+              }
+
+              .home .search a i:active {
+                  background-color: deeppink;
+              }
+
+              .search .btn {
+                  margin-left: 20px;
+                  padding: 10px 20px 10px 20px;
+                  font-size: 20px;
+                  font-weight: 700;
+                  background-color: #084C3F;
+                  color: #ffffff;
+                  border-radius: 50px;
+              }
+
+              .search .btn:hover {
+                  background-color: deeppink;
+              }
+
+              .perfect {
+                  background: rgb(232, 238, 236);
+                  background: linear-gradient(90deg, rgba(232, 238, 236, 1) 0%, rgba(254, 247, 237, 1) 100%);
+                  border-bottom: 1px solid #e7edeb;
+              }
+
+              .perfect .left {
+                  width: 50%;
+                  padding-top: 200px;
+              }
+
+              .perfect .left .loan p {
+                  color: #084c3d;
+                  position: relative;
+              }
+
+              .perfect .right {
+                  width: 50%;
+              }
+
+              .perfect .right img {
+                  width: 100%;
+              }
+
+              /* 4 Dots */
+
+              .loan p {
+                  padding-left: 30px;
+              }
+
+              .loan .top {
+                  width: 6px;
+                  height: 6px;
+                  background-color: #074C3F;
+                  position: absolute;
+                  top: 0px;
+                  left: 10px;
+                  border-radius: 100%;
+              }
+
+
+              .loan .bottom {
+                  width: 6px;
+                  height: 6px;
+                  background-color: #074C3F;
+                  position: absolute;
+                  bottom: 0px;
+                  left: 10px;
+                  border-radius: 100%;
+              }
+
+              .loan .right1 {
+                  width: 6px;
+                  height: 6px;
+                  background-color: #FBB855;
+                  position: absolute;
+                  top: 7px;
+                  left: 20px;
+                  border-radius: 100%;
+              }
+
+              .loan .left1 {
+                  width: 6px;
+                  height: 6px;
+                  background-color: #FBB855;
+                  position: absolute;
+                  top: 7px;
+                  left: 1px;
+                  border-radius: 100%;
+              }
+
+              .left h1 {
+                  font-size: 52px;
+                  color: #222E48;
+                  padding-top: 15px;
+              }
+
+              .left h1 span {
+                  color: #FBB64F;
+              }
+
+              .left .para p {
+                  line-height: 25px;
+                  color: #707886;
+                  font-size: 16px;
+                  padding-right: 30px;
+              }
+
+              .left .para a {
+                  background-color: #084C3F;
+                  color: #EDF3F1;
+                  padding: 20px;
+                  margin-top: 20px;
+                  border-radius: 50px;
+                  font-size: 20px;
+                  font-weight: 700;
+              }
+
+              button {
+                  margin-left: 20px;
+                  padding: 20px;
+                  color: #084C3F;
+                  background-color: none;
+                  font-size: 20px;
+                  font-weight: 700;
+                  border-radius: 50px;
+                  border: 2px solid #074C3F;
+              }
+
+              .empowering {
+                  padding-top: 50px;
+                  position: relative;
+              }
+
+              .empowering .feactures p {
+                  color: #084C3F;
+                  font-weight: 700;
+              }
+
+              .empowering .feactures p img {
+                  width: 14px;
+              }
+
+              .empowering .feactures h2 {
+                  font-size: 34px;
+                  padding: 5px 150px 5px 150px;
+                  color: #27334D;
+              }
+
+              .empowering .feactures .para {
+                  color: #959CA7;
+                  font-weight: 400;
+                  font-size: 13px;
+              }
+
+              .views .loan-reviews {
+                  width: 30%;
+                  background-color: #ffffff;
+                  padding: 10px;
+                  border: 1px solid #dfe0e4;
+                  border-radius: 10px;
+                  margin-top: 30px;
+                  margin-right: 25px;
+                  margin-bottom: 30px;
+              }
+
+              .loan-reviews .resources {
+                  background-color: #f4f6f5;
+                  border-radius: 5px;
+                  padding-bottom: 30px;
+                  padding-top: 20px;
+                  gap: 25px;
+              }
+
+              .loan-reviews .resources img {
+                  width: 13%;
+                  border-radius: 1px solid #dfe0e4;
+                  border-radius: 50px;
+              }
+
+              .loan-reviews .resources h3 {
+                  padding-top: 30px;
+                  font-size: 25px;
+                  color: #515B6F;
+              }
+
+              .loan-reviews .resources p {
+                  padding: 20px 14px 20px 18px;
+                  font-size: 12px;
+                  color: #91959E;
+              }
+
+              .loan-reviews .resources i {
+                  background-color: #ffffff;
+                  padding: 10px;
+                  color: #074C3F;
+                  border-radius: 50%;
+                  border: 1px solid #e7edeb;
+              }
+
+              .loan-reviews .educational {
+                  background-color: #084C3F;
+              }
+
+              .loan-reviews .educational h3 {
+                  color: #FFFFFF;
+              }
+
+              .loan-reviews .educational i {
+                  background-color: #FCB650;
+              }
+
+              /* Five points */
+
+              .points {
+                  margin-bottom: 100px;
+              }
+
+              .points .point1 {
+                  width: 6px;
+                  height: 6px;
+                  background-color: #e0e1e5;
+                  position: absolute;
+                  left: 480px;
+                  border-radius: 100%;
+              }
+
+              .points .point2 {
+                  width: 6px;
+                  height: 6px;
+                  background-color: #e0e1e5;
+                  position: absolute;
+                  left: 500px;
+                  border-radius: 100%;
+              }
+
+              .points .point3 {
+                  width: 6px;
+                  height: 6px;
+                  background-color: #084c3f;
+                  position: absolute;
+                  left: 520px;
+                  border-radius: 20px;
+                  padding-right: 25px;
+              }
+
+              .points .point4 {
+                  width: 6px;
+                  height: 6px;
+                  background-color: #e0e1e5;
+                  position: absolute;
+                  left: 560px;
+                  border-radius: 100%;
+              }
+
+              .points .point5 {
+                  width: 6px;
+                  height: 6px;
+                  background-color: #e0e1e5;
+                  position: absolute;
+                  left: 580px;
+                  border-radius: 100%;
+              }
+
+              /* Experience */
+
+              .choose {
+                  background: rgb(254, 247, 237);
+                  background: linear-gradient(90deg, rgba(254, 247, 237, 1) 0%, rgba(231, 237, 237, 1) 100%);
+                  padding-top: 60px;
+                  padding-bottom: 90px;
+              }
+
+              .choose .meeting-img {
+                  width: 50%;
+              }
+
+              .choose .meeting-img img {
+                  width: 100%;
+              }
+
+              .choose .experience {
+                  width: 50%;
+                  padding-left: 50px;
+                  padding-top: 60px;
+                  padding-right: 60px;
+              }
+
+              .choose .experience p {
+                  color: #366D61;
+                  font-weight: 700;
+              }
+
+              .choose .experience p img {
+                  width: 14px;
+              }
+
+              .choose .experience h3 {
+                  font-size: 30px;
+                  padding-top: 10px;
+                  padding-bottom: 10px;
+                  color: #222E48;
+              }
+
+              .choose .experience span {
+                  color: #959CA7;
+                  font-size: 13px;
+              }
+
+              .experience .ulstyle {
+                  padding-top: 20px;
+                  display: flex;
+                  flex-wrap: wrap;
+              }
+
+              .experience .ulstyle img {
+                  width: 4%;
+              }
+
+              .experience .ulstyle li {
+                  font-size: 14px;
+              }
+
+              .experience a {
+                  background-color: #084C3F;
+                  color: #FFFFFF;
+                  margin-top: 60px;
+                  padding: 10px 25px 10px 25px;
+                  border-radius: 50px;
+              }
+
+              .outer .depth {
+
+                  /* global 94%+ browsers support */
+                  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(254, 247, 237, 1) 100%);
+                  width: 100px;
+              }
+
+              .outer .borrowing {
+                  background: rgb(231, 237, 237);
+                  background: linear-gradient(180deg, rgba(231, 237, 237, 1) 0%, rgba(255, 255, 255, 1) 100%);
+                  width: 100px;
+              }
+
+              .outer .inner {
+                background: rgb(231, 237, 237);
+                background: linear-gradient(90deg, rgba(231, 237, 237, 1) 0%, rgba(254, 247, 237, 1) 100%);
+                margin-top: 100px;
+                width: 50%;
+            }
+
+            .outer .inner p{
+                color: #366D61;
+                padding-top: 50px;
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            .outer .inner p img{
+                width: 20px;
+             }
+
+             .outer .inner h3{
+                font-size: 30px;
+                margin: auto;
+                width: 60%;
+                color: #222E48;
+             }
+
+             .outer .inner nav{
+                color: #959CA7;
+                width: 74%;
+                margin: auto;
+                padding-top: 10px;
+                padding-bottom: 10px;
+             }
+            
+             .outer .inner .home-loans{
+                background-color: #ffffff;
+                width: 90%;
+               margin: auto;
+                border-radius: 10px;
+             }
+
+             .inner .home-loans .bedrock img{
+            
+             }
+             
+
+             
+             
+
+
+
+
+
+
